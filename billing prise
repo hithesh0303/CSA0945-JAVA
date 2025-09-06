@@ -1,0 +1,26 @@
+import java.io.*;
+class Main {
+    public static void main(String[] args) {
+        
+       int Tomato=36;
+       float Rice=45.50f;
+       int Onion=20;
+       
+       int qtyTomato = 5;
+       int qtyRice = 2;
+       int qtyOnion = 5;
+       
+       double totalTomato=Tomato*qtyTomato;
+       double totalRice=Rice*qtyRice;
+       double totalOnion=Onion*qtyOnion;
+       
+       double GrandTotal=totalTomato+totalRice+totalOnion;
+       
+       System.out.println("total price for tomato:"+totalTomato);
+       System.out.println("total price for rice:"+totalRice);
+       System.out.println("total price for onion:"+totalOnion);
+       
+       System.out.println("Grand total:"+GrandTotal);
+    }
+    
+}
