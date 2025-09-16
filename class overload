@@ -1,0 +1,18 @@
+import java.io.*;
+public class OverloadExample{
+    void display(){
+        System.out.println("No arguments.");
+    }
+    void display(int a){
+        System.out.println("One argument:"+a);
+    }
+    void display(int a,int b){
+        System.out.println("Two arguments:" +a+ "," +b);
+    }
+    public static void main(String[] args){
+        OverloadExample obj=new OverloadExample();
+        obj.display();
+        obj.display(10);
+        obj.display(10,20);
+    }
+}
