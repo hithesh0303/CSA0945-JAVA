@@ -1,0 +1,15 @@
+import java.io.*;
+public class Typeoverload{
+    void show(String s){
+        System.out.println("String:"+s);
+    }
+    void show(int i){
+        System.out.println("Integer:"+i);
+    }
+    public static void main(String[] args){
+        
+        Typeoverload obj=new Typeoverload();
+        obj.show("Hello");
+        obj.show(100);
+    }
+}
