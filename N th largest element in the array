@@ -1,0 +1,11 @@
+import java.util.Arrays;
+
+public class NthLargest {
+    public static void main(String[] args) {
+        int[] arr = {14, 67, 48, 23, 5, 62};
+        int N = 4; 
+        Arrays.sort(arr);  
+        int nthLargest = arr[arr.length - N];
+        System.out.println(N + "th Largest number: " + nthLargest);
+    }
+}
